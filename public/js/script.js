@@ -18,7 +18,7 @@ function showPassword() {
 btnLogin.addEventListener("click", () => {
     const username = document.getElementById("Username").value
     if(username == "admin" && password.value == "admin"){
-        location.replace("view/menu.html")
+        location.replace("https://hlink27.github.io/login-dashboard/view/menu.html")
     } else {
         errorText.innerHTML = "Usuário ou senha incorretos!"
     }
