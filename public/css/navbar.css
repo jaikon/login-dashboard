@@ -1,0 +1,127 @@
+.navbar ul {
+    list-style-type: none;
+    margin-left: -1rem;
+    z-index: 1;
+}
+
+.navbar-item {
+    margin-top: 2rem;
+    max-width: 2rem;
+    color: gray;
+    cursor: pointer;
+}
+
+.dropdown {
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #999898;
+    max-width: 9rem;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 1.2rem;
+    margin-top: -1rem;
+    z-index: 2;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 5px 8px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: rgb(117, 117, 117);}
+
+.box-title {
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+.banner {
+    padding: 0.5rem;
+    height: 3rem;
+}
+
+.card__image {
+    height: 100%;
+}
+.card__image img {
+    height: 100%;
+}
+
+.flex-container-column {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 3rem;
+    z-index: 0;
+}
+
+.flex-container-row-father {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+    margin-top: -30rem;
+    z-index: 0;
+}
+
+.flex-container-row {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 48rem;
+    justify-content: center;
+    align-content: center;
+    z-index: 0;
+}
+
+.card-title {
+    margin-top: 1rem;
+    text-align: center;
+    height: 1.5rem;
+    width: 100%;
+    background-color: rgb(46, 95, 80);
+    border-radius: 0.3rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    transition: 1s;
+}
+
+.card-title p {
+    color: white;
+}
+
+.card {
+    text-align: center;
+    height: 6rem;
+    width: 15rem;
+    background-color: white;
+    color: white;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    transition: 1s;
+}
+
+.blue {background-color: rgb(89, 89, 185);}
+.orange {background-color: rgb(184, 150, 88);}
+.green {background-color: rgb(85, 153, 85);}
+.blue:hover {background-color: rgb(38, 38, 146);}
+.orange:hover {background-color: rgb(141, 104, 35);}
+.green:hover {background-color: rgb(31, 138, 31);}
+
+.card-controle {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: rgb(155, 90, 88);
+}
+.card-controle:hover{background-color: rgb(161, 47, 43);}

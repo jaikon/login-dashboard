@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="public/css/login.css">
+    <link rel="stylesheet" href="public/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+    <div class="card">
+        <div class="login-inputs">
+            <label for="Username">Usuário:</label><br>
+            <input type="text" id="Username" name="Name" maxlength="18"/><br>
+            <label for="Password">Senha:</label><br>
+            <input type="password" id="Password" name="Password" maxlength="18"/>
+            <i class="far fa-eye" id="togglePassword" onclick="showPassword()"></i><br>
+            <p class="error-text"></p>
+            <button type="submit" class="btnLogin">Logar</button>
+            <script src="public/js/script.js"></script>
+        </div>
+        <div class="recuperar-senha">
+            <a href="#">Esqueci minha senha</a>
+        </div>
+    </div>
+</body>
+</html>

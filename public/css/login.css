@@ -1,0 +1,77 @@
+:root{
+    --primary-color: #D7C49EFF;
+    --secondary-color: rgb(39, 39, 43);
+}
+
+.card{
+    margin: auto;
+    margin-top: 15%;
+    padding: 1rem 0.2rem;
+    min-width: 18rem;
+    max-width: 28rem;
+    border-radius: 15px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--secondary-color);
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.685);
+}
+
+.login-inputs {
+    color: var(--primary-color);
+    font-family: monospace;
+    font-size: large;
+}
+
+input{
+    background-color: transparent;
+    padding: 3px 5px;
+    color: var(--primary-color);
+    font: var(--primary-color);
+    border: none;
+    margin-bottom: 0.2rem;
+    border-bottom: 2px solid var(--primary-color);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    margin-bottom: 2rem;
+}
+
+#togglePassword {
+    margin-left: -30px;
+    cursor: pointer;
+    min-width: 30px;
+    max-width: 30px;
+}
+
+.btnLogin {
+    margin: auto;
+    width: 100%;
+    background-color: transparent;
+    font: monospace;
+    color: var(--primary-color);
+    padding: 5px 15px;
+    font-size: medium;
+    cursor: pointer;
+    border: solid var(--primary-color) 1px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    margin-bottom: 1rem;
+}
+
+.btnLogin:hover {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.recuperar-senha a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.error-text {
+    font-size: medium;
+    color: darkred;
+    font: monospace;
+}
