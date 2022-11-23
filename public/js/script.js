@@ -18,7 +18,7 @@ function showPassword() {
 btnLogin.addEventListener("click", () => {
     const username = document.getElementById("Username").value
     if(username == "admin" && password.value == "admin"){
-        location.replace("/home/anon/Documentos/Desenvolvimento/Login_Sistemas_Herbet/view/menu.html")
+        location.replace("view/menu.html")
     } else {
         errorText.innerHTML = "Usuário ou senha incorretos!"
     }
